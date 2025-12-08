@@ -1,0 +1,24 @@
+index.html
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>Liora Candle</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #fff7f0;
+            text-align: center;
+            padding: 60px;
+        }
+        h1 {
+            color: #c47d4e;
+        }
+    </style>
+</head>
+<body>
+    <h1>🌙 Liora Candle</h1>
+    <p>سایت شما با موفقیت فعال شد!</p>
+    <p>اگر خواستی صفحه کامل‌تر و طراحی شیک بسازم، فقط بگو.</p>
+</body>
+</html>
