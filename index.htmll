@@ -1,24 +1,51 @@
-index.html
 <!DOCTYPE html>
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Liora Candle</title>
+
     <style>
-        body {
-            font-family: sans-serif;
-            background: #fff7f0;
-            text-align: center;
-            padding: 60px;
+        body { margin: 0; font-family: sans-serif; background: #fafafa; direction: rtl; text-align: right; color: #333; }
+        header { background: #ffb080; padding: 1rem; text-align: center; font-size: 1.3rem; font-weight: bold; }
+        nav { background: #f9d4d4; padding: .7rem; display: flex; justify-content: center; gap: 1.2rem; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+
+        .container { max-width: 1000px; margin: auto; padding: 1rem; }
+
+        .grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+
+        @media(min-width:768px){
+            .grid { grid-template-columns: 1fr 1fr 1fr; }
         }
-        h1 {
-            color: #c47d4e;
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 1rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.07);
         }
     </style>
 </head>
+
 <body>
-    <h1>🌙 Liora Candle</h1>
-    <p>سایت شما با موفقیت فعال شد!</p>
-    <p>اگر خواستی صفحه کامل‌تر و طراحی شیک بسازم، فقط بگو.</p>
+
+<header>ویژگی‌های شمع‌های لیورا</header>
+
+<nav>
+    <a href="index.html">خانه</a>
+    <a href="courses.html">دوره‌ها</a>
+    <a href="contact.html">ارتباط با ما</a>
+</nav>
+
+<div class="container">
+    <div class="grid">
+        <div class="card">کیفیت بالا</div>
+        <div class="card">رایحه طبیعی</div>
+        <div class="card">ساخت دست</div>
+    </div>
+</div>
+
 </body>
 </html>
+
